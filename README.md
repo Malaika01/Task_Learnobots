@@ -10,3 +10,7 @@ red block should be moved. Mathematical expression play an important role in pro
 4. Based on your move your score is updated
 
 ![blocks](https://github.com/Malaika01/Task_Learnobots/assets/96372780/0acc6ff3-90be-4286-8d0d-40074def572d)
+
+**Requirements**
+Blockly
+Three.js
