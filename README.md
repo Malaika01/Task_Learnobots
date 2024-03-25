@@ -1,6 +1,4 @@
-
-![ui](https://github.com/Malaika01/Task_Learnobots/assets/96372780/46d245b8-4258-4458-a81f-7f3fa64f57e1)
-
+![ui](https://github.com/Malaika01/Task_Learnobots/assets/96372780/0faef7f7-ceba-42a4-91c7-62f82e5db0fc)
 **About the game**
 The game test the user's ability to correctly evaluate mathematical relationship between two values. If the given expression is true the user should move green block if it is false 
 red block should be moved. Mathematical expression play an important role in programming; particularly in decision making. Additionaly user can make a completed if else block with  help of the objects provided on left hand side.
