@@ -1,4 +1,5 @@
-![Screenshot (5)](https://github.com/Malaika01/Task_Learnobots/assets/96372780/26c38d21-889f-43d1-ad80-9e71dce327e7)
+
+![ui](https://github.com/Malaika01/Task_Learnobots/assets/96372780/46d245b8-4258-4458-a81f-7f3fa64f57e1)
 
 **About the game**
 The game test the user's ability to correctly evaluate mathematical relationship between two values. If the given expression is true the user should move green block if it is false 
