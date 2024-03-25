@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New';
+}
+#expressionDisplay {
+    margin-top: 8px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+#expressionResult {
+    margin-top: 8px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+#score {
+    margin-top: 4px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+

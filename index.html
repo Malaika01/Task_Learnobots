@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockly and Application Integration</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+</head>
+<body>
+    <!-- Container for Blockly Workspace -->
+    <div id="blocklyContainer" style="float: left; width: 50%; height: 100vh;">
+        <div id="blocklyDiv" style="height: 480px; width: 100%;"></div>
+        <xml id="toolbox" style="display: none">
+            <block type="controls_if"></block> <!--If-else block-->
+            <block type="logic_compare"></block> <!--If-else block-->
+            <block type="text"></block>
+            <block type="move_green_cube"></block>
+            <block type="move_red_cube"></block> 
+        </xml>
+         <!-- Run Code Button -->
+ <div style="text-align: center; margin-top: 20px;">
+    <button id="runCode">Run Code</button></div>
+<div id="expressionDisplay"></div>
+<div id="expressionResult"></div>
+<h4>Score:</h4>
+<div id="score"></div></div>
+
+<!-- Container for THREE.js Renderer -->
+<div id="threeJsContainer" style="float: right; width: 50%; height: 100vh;"></div>
+   
+
+<script src="scripts/main.js" defer></script>
+<script src="vendors/three.min.js" defer></script>
+<script src="scripts/blockly_custom_blocks.js"></script>
+
+
+<script>
+    var workspace = Blockly.inject('blocklyDiv', {
+        toolbox: document.getElementById('toolbox')
+    });
+</script>
+
+</body>
+</html>
